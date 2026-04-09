@@ -1,0 +1,20 @@
+export const pages = [
+  { label: "Title Page", path: "/" },
+  { label: "Table of Contents", path: "/toc" },
+  { label: "List of Figures", path: "/list-of-figures" },
+  { label: "Declaration", path: "/declaration" },
+  { label: "Acknowledgement", path: "/acknowledgement" },
+  { label: "Certificate", path: "/certificate" },
+  { label: "Abstract", path: "/abstract" },
+  { label: "Chapter 1 – Organisation", path: "/chapter-1" },
+  { label: "Chapter 2 – Internship", path: "/chapter-2" },
+  { label: "Chapter 3 – Project", path: "/chapter-3" },
+  { label: "Chapter 4 – Architecture", path: "/chapter-4" },
+  { label: "Chapter 5 – Tools", path: "/chapter-5" },
+  { label: "Chapter 6 – Admin Panel", path: "/chapter-6" },
+  { label: "Chapter 7 – Deployment", path: "/chapter-7" },
+  { label: "Chapter 8 – Challenges", path: "/chapter-8" },
+  { label: "Chapter 9 – Conclusion & Future Scope", path: "/chapter-9" },
+  { label: "References", path: "/references" },
+  { label: "Appendix", path: "/appendix" }
+];
