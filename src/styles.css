@@ -1209,6 +1209,41 @@ body.print-mode .qr-section img {
   background: white;
 }
 /* =============================
+   ✅ TITLE PAGE QR (SIDE)
+   ============================= */
+
+.title-page {
+  position: relative;
+}
+
+.title-qr {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  text-align: center;
+}
+
+.title-qr img {
+  width: 110px;
+  height: 110px;
+  background: white;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.title-qr span {
+  display: block;
+  margin-top: 6px;
+  font-size: 11px;
+  color: #cbd5f5;
+}
+
+/* ✅ Print friendly */
+body.print-mode .title-qr img {
+  background: white;
+  box-shadow: none;
+}
+/* =============================
    ✅ MOBILE RESPONSIVE FIX
    ============================= */
 

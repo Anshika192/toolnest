@@ -25,14 +25,7 @@ export default function Title() {
           15 January 2026 – 30 April 2026
         </p>
 
-        {/* ✅ QR CODE */}
-        <div className="qr-section">
-          <img src={qrImg} alt="ToolNest QR Code" />
-          <p className="qr-caption">
-            Scan the QR code to access the live deployed version of ToolNest
-          </p>
-        </div>
-
+        {/* SUBMIT DETAILS */}
         <div className="submit-info">
           {/* Submitted By */}
           <div className="submit-block">
@@ -44,7 +37,7 @@ export default function Title() {
             <p>
               <strong>Submitted By</strong><br />
               Anshika Pandey<br />
-              B.Tech – Computer Science & Engineering<br />
+              B.Tech – Computer Science &amp; Engineering<br />
               <em>(VIAT Department)</em><br />
               Sam Higginbottom University of Agriculture,<br />
               Technology and Sciences
@@ -65,6 +58,13 @@ export default function Title() {
             </p>
           </div>
         </div>
+
+        {/* ✅ QR – BOTTOM RIGHT */}
+        <div className="title-qr">
+          <img src={qrImg} alt="ToolNest QR Code" />
+          <span>Scan for Live Project</span>
+        </div>
+
       </motion.div>
     </motion.div>
   );
