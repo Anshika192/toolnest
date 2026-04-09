@@ -1182,3 +1182,81 @@ body.print-mode .image-grid img {
   color: inherit;
   display: block;
 }
+/* =============================
+   ✅ MOBILE RESPONSIVE FIX
+   ============================= */
+
+@media (max-width: 768px) {
+
+  /* General spacing */
+  body {
+    font-size: 14px;
+  }
+
+  main {
+    margin-top: 56px;
+  }
+
+  /* Section padding */
+  .section-container,
+  .toc-page {
+    padding: 20px 16px 40px;
+  }
+
+  /* Headings scale down */
+  .page-title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .chapter-card h2 {
+    font-size: 20px;
+  }
+
+  /* Chapter cards */
+  .chapter-card {
+    padding: 20px;
+    margin: 24px auto;
+  }
+
+  /* Images (Chapter 1 & 4) */
+  .image-grid {
+    grid-template-columns: 1fr; /* ✅ single column */
+    gap: 20px;
+  }
+
+  .image-grid img,
+  .workflow-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Vision & Mission */
+  .vm-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* TOC cards */
+  .toc-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Sidebar */
+  .sidebar {
+    width: 240px;
+  }
+
+  /* Top bar title */
+  .top-bar h1,
+  .topbar-center {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  /* Footer */
+  .app-footer {
+    font-size: 12px;
+    padding: 14px 8px;
+  }
+}
