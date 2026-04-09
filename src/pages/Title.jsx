@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import companyLogo from "../assets/company.png";
 import collegeLogo from "../assets/college.png";
-import qrImg from "../assets/toolnest-qr.png"; // ✅ QR IMAGE
+import qrImg from "../assets/toolnest-qr.png";
 
 export default function Title() {
   return (
@@ -25,15 +25,14 @@ export default function Title() {
           15 January 2026 – 30 April 2026
         </p>
 
-        {/* ✅ QR CODE SECTION */}
+        {/* ✅ QR CODE */}
         <div className="qr-section">
-          <img src={qrImg} alt="ToolNest Live QR Code" />
+          <img src={qrImg} alt="ToolNest QR Code" />
           <p className="qr-caption">
             Scan the QR code to access the live deployed version of ToolNest
           </p>
         </div>
 
-        {/* SUBMIT DETAILS */}
         <div className="submit-info">
           {/* Submitted By */}
           <div className="submit-block">
@@ -45,7 +44,7 @@ export default function Title() {
             <p>
               <strong>Submitted By</strong><br />
               Anshika Pandey<br />
-              B.Tech – Computer Science &amp; Engineering<br />
+              B.Tech – Computer Science & Engineering<br />
               <em>(VIAT Department)</em><br />
               Sam Higginbottom University of Agriculture,<br />
               Technology and Sciences
