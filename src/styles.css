@@ -1182,6 +1182,32 @@ body.print-mode .image-grid img {
   color: inherit;
   display: block;
 }
+/* ✅ TITLE PAGE QR */
+
+.qr-section {
+  margin: 28px auto;
+  text-align: center;
+}
+
+.qr-section img {
+  width: 130px;
+  height: 130px;
+  background: white;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.qr-caption {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #cbd5f5;
+}
+
+/* Print friendly */
+body.print-mode .qr-section img {
+  box-shadow: none;
+  background: white;
+}
 /* =============================
    ✅ MOBILE RESPONSIVE FIX
    ============================= */

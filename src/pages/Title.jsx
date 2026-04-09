@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import companyLogo from "../assets/company.png";
 import collegeLogo from "../assets/college.png";
+import qrImg from "../assets/toolnest-qr.png"; // ✅ QR IMAGE
 
 export default function Title() {
   return (
@@ -20,34 +21,51 @@ export default function Title() {
         <h2>A Unified Productivity Platform</h2>
 
         <p className="meta">
-  Internship Duration<br />
-  15 January 2026 – 30 April 2026
-</p>
+          Internship Duration<br />
+          15 January 2026 – 30 April 2026
+        </p>
 
-<div className="submit-info">
-  {/* Submitted By */}
-  <div className="submit-block">
-    <img src={collegeLogo} alt="College Logo" className="submit-logo" />
-    <p>
-      <strong>Submitted By</strong><br />
-      Anshika Pandey<br />
-      B.Tech – Computer Science & Engineering<br />
-      <em>(VIAT Department)</em><br />
-      Sam Higginbottom University of Agriculture,<br />
-      Technology and Sciences
-    </p>
-  </div>
+        {/* ✅ QR CODE SECTION */}
+        <div className="qr-section">
+          <img src={qrImg} alt="ToolNest Live QR Code" />
+          <p className="qr-caption">
+            Scan the QR code to access the live deployed version of ToolNest
+          </p>
+        </div>
 
-  {/* Submitted To */}
-  <div className="submit-block">
-    <img src={companyLogo} alt="Company Logo" className="submit-logo" />
-    <p>
-      <strong>Submitted To</strong><br />
-      Tata Technologies<br />
-      Aditya Vernekar
-    </p>
-  </div>
-</div>
+        {/* SUBMIT DETAILS */}
+        <div className="submit-info">
+          {/* Submitted By */}
+          <div className="submit-block">
+            <img
+              src={collegeLogo}
+              alt="College Logo"
+              className="submit-logo"
+            />
+            <p>
+              <strong>Submitted By</strong><br />
+              Anshika Pandey<br />
+              B.Tech – Computer Science &amp; Engineering<br />
+              <em>(VIAT Department)</em><br />
+              Sam Higginbottom University of Agriculture,<br />
+              Technology and Sciences
+            </p>
+          </div>
+
+          {/* Submitted To */}
+          <div className="submit-block">
+            <img
+              src={companyLogo}
+              alt="Company Logo"
+              className="submit-logo"
+            />
+            <p>
+              <strong>Submitted To</strong><br />
+              Tata Technologies<br />
+              Aditya Vernekar
+            </p>
+          </div>
+        </div>
       </motion.div>
     </motion.div>
   );
