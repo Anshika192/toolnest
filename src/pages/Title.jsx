@@ -44,7 +44,7 @@ export default function Title() {
     <p>
       <strong>Submitted To</strong><br />
       Tata Technologies<br />
-      Internship Mentor
+      Aditya Vernekar
     </p>
   </div>
 </div>
